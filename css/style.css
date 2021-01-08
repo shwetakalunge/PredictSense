@@ -1,0 +1,265 @@
+@import url("fonts.css");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #ffffff;
+    color: #a39d9d;
+    font-family: 'Lato', 'Arial';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+    margin: 0px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 77px;
+    background: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.main-nav {
+    list-style: none;
+    margin-right: 160px;
+    margin: 20px auto;
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #101010;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.2s;
+    text-decoration: none;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 3px solid #034EA2
+}
+
+.logo-class {
+    margin-left: 160px;
+}
+
+
+.btn-nav {
+    width: 144px;
+    height: 36px;
+    background: #034EA2;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+    font-family: NunitoSans-SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 440px;
+    background-color: #E1EEFF;
+}
+
+.content textbox {}
+
+.header_textbox {
+    position: relative;
+    max-width: 370px;
+    margin-left: 160px;
+    margin-top: 30px;
+
+}
+
+h1 {
+    font-family: NunitoSans-ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 38px;
+    color: #101010;
+}
+
+.content .header_textbox p {
+    font-family: NunitoSans-Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #01002A;
+}
+
+.content .header_textbox a {
+    display: inline-block;
+    margin-top: 29px;
+    width: 223px;
+    height: 41px;
+    background: #034EA2;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    font-family: NunitoSans-Bold;
+    font-style: Bold;
+    Font size: 14px;
+    text-align: center;
+    align-items: center;
+    padding: 5px
+}
+
+.imgbox {
+    margin-right: 160px;
+    margin-top: 16px;
+}
+
+.features-content {
+    margin: auto;
+    background-color: blueviolet;
+    border: 10px solid black;
+
+}
+
+.features_para p {
+    font-family: NunitoSans-SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #01002A;
+    margin: 30px 160px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.Steps_Section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps_image {
+    margin-left: 160px;
+
+}
+
+.steps_desc {
+    margin-right: 500px;
+}
+
+/*--------------------------------------------------------- */
+/* -------------HOW IT WORKS ------------- ---------------------*/
+.section-steps {
+    background-color: #e8ede9;
+}
+
+.steps-box {
+    margin-top: 30px;
+}
+
+.app-screen {
+    /* position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center*/
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 50px;
+}
+
+.steps-box:first-child {
+    margin-left: 160px;
+
+}
+
+.steps-box:last-child {
+    padding-left: 0%;
+    margin-top: 50px;
+    text-align: left;
+    margin-right: 125px
+}
+
+.works-steps:last-of-type {}
+
+.works-steps {
+    margin-bottom: 20px;
+
+}
+
+.works-steps span {
+    font-family: NunitoSans-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.works-steps p {
+    margin-left: 80px;
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    font-feature-settings: 'case'on;
+    color: #65646A;
+}
