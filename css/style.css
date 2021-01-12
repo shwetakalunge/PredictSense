@@ -52,6 +52,7 @@ nav {
 
 }
 
+/*---*/
 .main-nav {
     list-style: none;
     margin-right: 160px;
@@ -81,6 +82,15 @@ nav {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 3px solid #034EA2
+}
+
+/*------*/
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
 }
 
 .logo-class {
@@ -156,6 +166,10 @@ h1 {
     text-align: center;
     align-items: center;
     padding: 5px
+}
+
+.content .header_textbox a:hover {
+    background: #1568c6;
 }
 
 .imgbox {
@@ -403,13 +417,18 @@ h1 {
     line-height: 0px;
 }
 
+.business_button button :hover {
+    background: blue;
+}
+
 arrow-forward-circle-outline {
     float: right
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .Work_PredictS {
-    background-image: url(../images/predictS-Work.png)
+    background-image: url(../images/predictS-Work.png);
+    background-repeat: no-repeat
 }
 
 .Work_PredictS h3 {
@@ -445,4 +464,34 @@ arrow-forward-circle-outline {
     text-align: center;
     width: 552px;
     height: 63.66px;
+
+}
+
+.Work_PredictS_box2 ul {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 388px;
+    height: 350px;
+}
+
+.Work_PredictS_box2 ul li {
+    text-align: left;
+    list-style: none;
+    margin-bottom: 49px;
+    margin-left: 25px;
+    font-family: NunitoSans-Regular;
+    Font style: ExtraBold;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+    color: #01002A;
+}
+
+.Work_PredictS_box2 ul li:first-child {
+    padding: 25px 0px 0px 0px;
+}
+
+.image-banner {
+    background-image: linear-gradient(90deg, #100F37 0%, rgba(16, 15, 55, 0.36) 100%);
 }
