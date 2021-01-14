@@ -112,7 +112,7 @@ nav {
     line-height: 18px;
 }
 
-
+/*===================Landing Page============================================================================================================================================*/
 
 .content {
     position: relative;
@@ -428,7 +428,13 @@ arrow-forward-circle-outline {
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .Work_PredictS {
     background-image: url(../images/predictS-Work.png);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.work-image {
+    width: 552px;
 }
 
 .Work_PredictS h3 {
@@ -439,6 +445,7 @@ arrow-forward-circle-outline {
     text-align: center;
     font-weight: 900;
     font-size: 30px;
+    margin-top: 70px;
 }
 
 .Work_PredictS_para {
@@ -462,9 +469,10 @@ arrow-forward-circle-outline {
     color: #FFFFFF;
     background: rgba(3, 78, 162, 0.87);
     text-align: center;
-    width: 552px;
+    width: 558px;
     height: 63.66px;
-
+    padding: 10px;
+    margin-left: 28px
 }
 
 .Work_PredictS_box2 ul {
@@ -492,6 +500,296 @@ arrow-forward-circle-outline {
     padding: 25px 0px 0px 0px;
 }
 
-.image-banner {
-    background-image: linear-gradient(90deg, #100F37 0%, rgba(16, 15, 55, 0.36) 100%);
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.image_banner {
+
+    background-image: linear-gradient(90deg, #100F37 0%, rgba(16, 15, 55, 0.36) 100%), url(../images/image%2042.png);
+    height: 227px;
+}
+
+.image_banner h3 {
+    margin: auto;
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 25px
+}
+
+.image_banner p {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.company_logo {
+    width: 100%
+}
+
+.trial_companylogo {
+    background: #F1F3FE;
+    height: 144px;
+}
+
+.company-logo-wrap {
+    margin: auto;
+    margin-top: 55px;
+}
+
+.success_heading {
+    text-align: center;
+    margin-top: 97px
+}
+
+.success_heading h3 {
+    font-family: NunitoSans-Regular;
+    font-style: Black;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #01002A;
+}
+
+.success_heading_para {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #01002A;
+    margin-bottom: 36px
+}
+
+.reviews {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    display: flex;
+    width: 388px;
+    height: 140px;
+    margin: auto;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 96px
+}
+
+.review_image1 {
+    margin: 25px 24px 0px 13px;
+    width: 44px;
+    height: 44px;
+}
+
+.success_para {
+    margin: 18px 28px 0px 0px;
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.blockquot {
+    float: right;
+    margin-right: 15px
+}
+
+.author {
+    margin-top: 17px;
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #034EA2;
+}
+
+.author span {
+    color: black;
+    font-weight: bold;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.awards_section {
+    background: #F1F3FE;
+    height: 260px;
+}
+
+.awards_section h3 {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #01002A;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.award_content {
+    position: relative;
+    background-color: white;
+    width: 307px;
+    height: 65px;
+}
+
+.award_para {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 35px;
+    font-family: NunitoSans-Regular;
+    margin-top: 20px;
+}
+
+
+.awards_grid1 {
+    margin-right: 25px;
+}
+
+.awards_grid2 {
+    margin-right: 25px;
+}
+
+.awards_grid1,
+.awards_grid2 {
+    width: 307px;
+    height: 65px;
+    background: #FEFEFE;
+    margin-left: 25px;
+}
+
+.award_image1 {}
+
+.main-award {
+    display: flex;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+.steps1 {
+    display: flex;
+    height: 78px;
+    margin-left: 0px;
+    margin-top: 45px;
+}
+
+.steps2 {
+    display: flex;
+    height: 78px;
+    margin-left: 70px;
+    margin-top: 55px;
+}
+
+.steps3 {
+    display: flex;
+    height: 78px;
+    margin-left: 106px;
+    margin-top: 45px;
+}
+
+.steps4 {
+    display: flex;
+    height: 78px;
+    margin-left: 70px;
+    margin-top: 55px;
+}
+
+.steps5 {
+    display: flex;
+    height: 78px;
+    margin-left: 0px;
+    margin-top: 55px;
+    margin-bottom: 56px;
+}
+
+.steps_content1 h4,
+.steps_content2 h4,
+.steps_content3 h4,
+.steps_content4 h4,
+.steps_content5 h4 {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    margin-left: 17px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+
+.Image_steps-wrap {
+    display: flex
+}
+
+
+.trial_image {
+    margin-top: 110px;
+    width: 364.43px;
+    height: 364.48px;
+}
+
+.steps_content1 p,
+.steps_content2 p,
+.steps_content3 p,
+.steps_content4 p,
+.steps_content5 p {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    font-feature-settings: 'case'on;
+    margin-left: 17px;
+    color: #65646A;
+}
+
+
+.transform_help {
+    background-image: linear-gradient(90deg, #100F37 0%, rgba(16, 15, 55, 0.36) 100%), url(../images/transform.png);
+    background-size: cover;
+    background-position: center;
+    height: 199px;
+}
+
+.transform_help h3 {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    padding: 20px
+}
+
+.transform_help p {
+    font-family: NunitoSans-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px
 }
